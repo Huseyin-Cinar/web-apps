@@ -28,4 +28,4 @@ This repository includes apps where applications programmed on the internet by o
     - Discord Server
        - [Join](https://futuree.netlify.app/dc)
      - My Website
-       - [Click](https://futuree.netlify.app)
+       - [Click](https://futuree.netlify.app/en)
