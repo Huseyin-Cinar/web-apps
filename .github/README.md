@@ -10,7 +10,7 @@
 This repository includes apps where applications programmed on the internet by our software team are compiled. Made with ❤️ Open Source.
 
 
-## [Click for example on website](https://futuree.netlify.app/apps/speedtest)
+## [Click for detailed explanation](https://futuree.netlify.app/kodlama)
 
 ## [Author's Github](https://github.com/Huseyin-Cinar)
 
