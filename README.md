@@ -8,3 +8,25 @@
 
 # web-apps
 This repository includes apps where applications programmed on the internet by our software team are compiled. Made with ❤️ Open Source.
+
+
+## [Click for example on website](https://futuree.netlify.app/apps/speedtest)
+
+## [Author's Github](https://github.com/Huseyin-Cinar)
+
+## [See more repo like this](https://github.com/Huseyin-Cinar?tab=repositories)
+<br><br>
+
+***Author's Media Accounts;***
+     - Instagram
+       - [@huseyinn.cinar](https://instagram.com/huseyinn.cinar)
+     - Twitter
+       - [@Hseyinn59612876](https://twitter.com/Hseyinn59612876)
+     - Facebook
+       - [@mrbeast](https://facebook.com/mrbeast6000)
+     - Discord
+       - [Black Death#3957](https://discord.com/users/782246367204605953)
+    - Discord Server
+       - [Join](https://futuree.netlify.app/dc)
+     - My Website
+       - [Click](https://futuree.netlify.app)
