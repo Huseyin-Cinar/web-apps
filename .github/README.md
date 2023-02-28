@@ -9,7 +9,7 @@
 This repository includes apps where applications programmed on the internet by our software team are compiled. Made with ❤️ Open Source.
 
 
-## [Click for detailed explanation](https://futuree.netlify.app/kodlama)
+## [Click for detailed explanation](https://futuree.netlify.app/en/coding)
 
 ## [Author's Github](https://github.com/Huseyin-Cinar)
 
