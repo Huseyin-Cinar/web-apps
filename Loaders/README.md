@@ -1,4 +1,4 @@
-# Making Loaders with Html and Csst
+# Making Loaders with Html and Css
 
 **Hello,**
 
