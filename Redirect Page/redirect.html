@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wait Please...</title>
+    <meta http-equiv="refresh" content="6; url=https://yourlink.com/">
+    <link rel="stylesheet" href="./redirect.css">
+  </head>
+  <body>
+      <div id="section-top">
+        <span>
+          welcome to the redirect page
+        </span>
+      </div>
+      <div id="section-bottom">
+        <span>
+          I direct you to the link you want.
+        </span>
+      </div>
+      <CENTER>
+        <div id="load">
+          <span class="loader"></span>
+        </div>
+        <div id="num">5</div>
+      </CENTER>
+      <script>
+        setTimeout(() => document.getElementById("num").innerHTML = 5, 0);
+        setTimeout(() => document.getElementById("num").innerHTML = 4, 1000);
+        setTimeout(() => document.getElementById("num").innerHTML = 3, 2000);
+        setTimeout(() => document.getElementById("num").innerHTML = 2, 3000);
+        setTimeout(() => document.getElementById("num").innerHTML = 1, 4000);
+        setTimeout(() => document.getElementById("num").innerHTML = 0, 5000);
+      </script>
+  </body>
+</html>

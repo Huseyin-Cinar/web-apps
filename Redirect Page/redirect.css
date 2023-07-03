@@ -1,0 +1,116 @@
+html {
+  background-color: #0c0c0f;
+  cursor: none;
+  transition: 1.5s;
+}
+
+#section-top {
+  text-align: center;
+  transition: 1s;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-family: fantasy;
+  letter-spacing: 3px;
+  display: block;
+  color: #b2c4cc;
+  animation: top 1.5s;
+  margin-top: 20%;
+}
+
+#section-bottom {
+  text-align: center;
+  transition: 1s;
+  font-size: 2.2em;
+  text-transform: lowercase;
+  font-family: fangsong;
+  letter-spacing: none;
+  display: block;
+  color: #fff;
+  animation: bottom 1.5s;
+  margin-top: 3%;
+}
+
+#num {
+  color: #b2c4cc;
+  font-size: 2em;
+  transform: translate(0px,-48px);
+  transition: 0s;
+}
+
+#load {
+  display: block;
+  margin-top: 10%;
+  transform: scale(2);
+}
+
+@keyframes top {
+  0%   {margin-top: 40%; opacity: 0;}
+  100% {margin-top: 20%; opacity: 1;}
+}
+
+@keyframes bottom {
+  0%   {margin-top: 12%; opacity: 0;}
+  100% {margin-top: 3%; opacity: 1;}
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #FFF #FFF transparent transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after,
+.loader::before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent #b2c4cc #b2c4cc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+.loader::before {
+  width: 32px;
+  height: 32px;
+  border-color: #FFF #FFF transparent transparent;
+  animation: rotation 1.5s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+::-webkit-scrollbar{display: none;}
+::-webkit-scrollbar:hover{display: none;}
+::-webkit-scrollbar-thumb{display: none;}
+::-webkit-scrollbar-thumb:hover{display: none;}
+::-webkit-scrollbar-thumb:focus{display: none;}
+::-webkit-scrollbar-track-piece{display: none;}
+::-webkit-scrollbar-corner{display: none;}
